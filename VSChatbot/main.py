@@ -53,21 +53,21 @@ class Chatbot:
         if language == 'es':
             yes = ['sí', 'si', 'claro', 'correcto', 'ok']
             no = ['no', 'nah', 'nop', "no", "no era", 'no']
-            legal = ["abogado", "asesor", "legal"]
-            victimsComp = ["victimas", "compensacion", "compensaciones", "dinero", "financiera", "victima"]
-            counseling = ["asesoramiento", "consejeria", "terapia", "psicologo", "psicologa"]
+            legal = ["abogado", "asesor", "legal","servicios","1"]
+            victimsComp = ["victimas", "compensacion", "compensaciones", "dinero", "financiera", "victima","2"]
+            counseling = ["asesoramiento", "consejeria", "terapia", "psicologo", "psicologa","3"]
         elif language == 'mayan':
             yes = ["je'ela'", "je'el", "ma'alo'ob", "u ja", "ok"]
             no = ["ma'", "maja", "ma' in wilaj", "ma'", "ma' k'a'ba", "ma'"]
-            legal = ["k'i'ik'", "asesor", "ley"]
-            victimsComp = ["víctima", "compensación", "compensaciones", "dinero", "financiera"]
-            counseling = ["asesoramiento", "consejería", "consejeria", "xoknáalo'ob", "terapia"]
+            legal = ["k'i'ik'", "asesor", "ley","1"]
+            victimsComp = ["víctima", "compensación", "compensaciones", "dinero", "financiera","2"]
+            counseling = ["asesoramiento", "consejería", "consejeria", "xoknáalo'ob", "terapia","3"]
         else:  # Default to English
             yes = ['yep', 'yeah', 'yes', 'yup', 'correct', "ok"]
             no = ['no', 'nah', 'nope', "didn't", "wasn't", 'not']
-            legal = ["lawyer", "solicitor", "legal"]
-            victimsComp = ["victims", "compensation", "victim's", "comp", "money", "financial", "victim"]
-            counseling = ["counselling", "counseling", "psychologist", "therapy", "counsellor", "therapist"]
+            legal = ["lawyer", "solicitor", "legal","1"]
+            victimsComp = ["victims", "compensation", "victim's", "comp", "money", "financial", "victim","2"]
+            counseling = ["counselling", "counseling", "psychologist", "therapy", "counsellor", "therapist","3"]
 
         state = self.state
 
