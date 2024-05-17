@@ -1,8 +1,8 @@
 {
     "welcome": {
-        "es": "Hola, soy un chatbot. \nMi trabajo es ayudar a las personas con información sobre los servicios de apoyo a víctimas en Yucatán. Si has sido víctima de abuso físico o sexual, me gustaría ayudarte \n\n",
-        "mayan": "Sáam, in ka'ansaj k k'áato'obo'. \nIn ka'ansaj le máako'ob ku yáan k'áat ich a kajtal le máako'ob jach meyaj paalal le máako'ob ku láaka'an ich tu Yucatán. Wa a yáantik ta'anal k'áam, in k'áato'obo' a apoytak \n\n",
-        "en" : "Hi, I'm a chatbot. \nMy job is to help people with information about victims support services in Yucatán. If you have been the victim of physical or sexual abuse I'd like to help you \n\n"
+        "es": "Hola, soy Maya. \nMi trabajo es ayudar a las personas con información sobre los servicios de apoyo a víctimas en Yucatán. Si has sido víctima de abuso físico o sexual, me gustaría ayudarte \n\n",
+        "mayan": "Sáam, inin Maya. \nIn ka'ansaj le máako'ob ku yáan k'áat ich a kajtal le máako'ob jach meyaj paalal le máako'ob ku láaka'an ich tu Yucatán. Wa a yáantik ta'anal k'áam, in k'áato'obo' a apoytak \n\n",
+        "en" : "Hi, I'm Maya. \nMy job is to help people with information about victims support services in Yucatán. If you have been the victim of physical or sexual abuse I'd like to help you \n\n"
     },
     "main menu": {
         "es": "¿Te gustaría obtener información sobre: \n1. Servicios legales gratuitos \n2. Asesoramiento \n3. Compensación para víctimas \n\n",
