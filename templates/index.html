@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: url("{{ url_for('static', filename='images/background.png') }}") no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .chat-container {
+            background-color: white;
+            width: 100%;
+            max-width: 600px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            position: relative;
+        }
+        .profile-pic {
+            position: absolute;
+            top: -50px;
+            left: calc(50% - 50px);
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        .messages {
+            max-height: 300px;
+            overflow-y: auto;
+            margin-bottom: 20px;
+            padding-top: 60px;
+        }
+        .message {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .user-message {
+            background-color: #d1e7dd;
+            text-align: right;
+        }
+        .bot-message {
+            background-color: #f8d7da;
+        }
+        .input-container {
+            display: flex;
+            margin-top: 10px;
+        }
+        .input-container input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+        }
+        .input-container button {
+            padding: 10px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+        @media (max-width: 600px) {
+            .chat-container {
+                width: 90%;
+                padding: 10px;
+            }
+            .input-container input, .input-container button {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <img src="{{ url_for('static', filename='images/profile.png') }}" alt="Profile Picture" class="profile-pic">
+        <div>
+            <label for="language-select">Select Language:</label>
+            <select id="language-select" onchange="loadInitialMessages()">
+                <option value="es">Spanish</option>
+                <option value="en">English</option>
+                <option value="mayan">Mayan</option>
+            </select>
+        </div>
+        <div class="messages" id="messages"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function displayMessage(content, className) {
+            const messagesDiv = document.getElementById('messages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'message ' + className;
+            messageDiv.textContent = content;
+            messagesDiv.appendChild(messageDiv);
+            messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }
+
+        async function loadInitialMessages() {
+            const language = document.getElementById('language-select').value;
+            const response = await fetch('/initial_messages', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ language: language })
+            });
+            const data = await response.json();
+            const messagesDiv = document.getElementById('messages');
+            messagesDiv.innerHTML = '';  // Clear existing messages
+            data.messages.forEach(message => displayMessage(message, 'bot-message'));
+        }
+
+        window.onload = function() {
+            loadInitialMessages();  // Load initial messages based on default language
+
+            const inputField = document.getElementById('user-input');
+            inputField.addEventListener('keydown', function(event) {
+                if (event.key === 'Enter') {
+                    sendMessage();
+                }
+            });
+        };
+
+        async function sendMessage() {
+            const userInput = document.getElementById('user-input').value;
+            const language = document.getElementById('language-select').value;
+            if (userInput.trim() === '') return;
+
+            displayMessage(userInput, 'user-message');
+            document.getElementById('user-input').value = '';
+
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ message: userInput, language: language })
+            });
+            const data = await response.json();
+            displayMessage(data.response, 'bot-message');
+        }
+    </script>
+</body>
+</html>

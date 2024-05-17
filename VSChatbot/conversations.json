@@ -1,0 +1,162 @@
+{
+    "welcome": {
+        "es": "Hola, soy un chatbot. \nMi trabajo es ayudar a las personas con información sobre los servicios de apoyo a víctimas en Nueva Gales del Sur. Si has sido víctima de abuso físico o sexual, me gustaría ayudarte \n\n",
+        "mayan": "Sáam, in ka'ansaj k k'áato'obo'. \nIn ka'ansaj le máako'ob ku yáan k'áat ich a kajtal le máako'ob jach meyaj paalal le máako'ob ku láaka'an ich tu Nueva Gales del Sur. Wa a yáantik ta'anal k'áam, in k'áato'obo' a apoytak \n\n",
+        "en" : "Hi, I'm a chatbot. \nMy job is to help people with information about victims support services in New South Wales. If you have been the victim of physical or sexual abuse I'd like to help you \n\n"
+    },
+    "main menu": {
+        "es": "¿Te gustaría obtener información sobre: \n1. Servicios legales gratuitos \n2. Asesoramiento \n3. Compensación para víctimas \n\n",
+        "mayan": "¿A k'aate'ob jump'éel a jach meyaj t'aan? \n1. Táan u meyajo'obo' ti' kaajilo'oba' \n2. Asesoramiento \n3. Compensación ti' le máako'obo' \n\n",
+        "en" : "Would you like some information on: \n1. Free legal services \n2. Counselling \n3. Victims Compensation \n\n"
+    },
+    "limit": {
+        "es": "Eso es todo lo que sé sobre el tema. \n\n",
+        "mayan": "Mix ba'ax t'aan k u yáan ti' le meyaj.\n\n",
+        "en" : "That's everything I know about. \n\n"
+    },
+    "bye": {
+        "es": "Gracias por conversar conmigo, espero haber sido útil.\n Que tengas un buen día y que las cosas mejoren para ti :)\n\n",
+        "mayan": "Yuumbo'oti' tu jach meyaj t'aan in k'áato', in k'áat k wáak'ech. Yéetel meyajo'oba' k'u ku u meyajo'oba' k a kajtal teech :)\n\n",
+        "en" : "Thanks for chatting with me, I hope i was able to be helpful.\n I hope you have a good day and that things take a turn for the better :)\n\n"
+    },
+    "error": {
+        "es": "Lo siento, no entendí eso. Todavía estoy aprendiendo. Gracias por tu paciencia. ¿Podrías reformular tu respuesta?\n\n",
+        "mayan": "Mixba'atil, ma' tin manik u jach t'aan. Taan in ka'ansik. Yuumbo'oti' ich a ku yóol. Ba'ax a jach k a wilik k'aato'obo'?\n\n",
+        "en" : "Sorry, I didn't understand that. I'm still learning. Thank you for being patient with me. Could you rephrase your response?\n\n"
+    },
+    "victims compensation": {
+        "es": "Servicios para Víctimas es una agencia financiada por el gobierno que proporciona asistencia a las personas que han sido lesionadas por la conducta violenta de otros \n\nEsta asistencia incluye: \n1. Un pago único (llamado 'pago de reconocimiento') para reconocer el trauma que experimentaste \n2. Asesoramiento gratuito con trabajadores sociales y psicólogos experimentados. \n3. Asistencia financiera por propiedad perdida/danada, salarios perdidos y necesidades urgentes relacionadas con la violencia que sufriste \n\n",
+        "mayan": "Le máako'ob ku yáan táan u meyajo'obo' ti' kaajilo'oba' tu k'áato'ob ich a paalalo'ob máako'ob ku yáantik ta'anal ich jach taan. \n\nLe máako'obo' táan yich k'áansaj: \n1. K'áato'obo' yéetel meyajo'obo' ku k'áat chi'obo' (jump'éel meyaj jach u yáantik k'a'ato'obo' le trauma ku yáantikech) \n2. Asesoramiento gratuito yéetel trabajadores sociales y psicólogos ku yóolal ich meyaj.\n3. Asistencia financiera ich u jach paalal jach taan.\n\n",
+        "en" : "Victims Services is a government-funded agency that provides assistance to people who have been injured by the violent conduct of others \n\nThis assistance includes: \n1. A lump sum payment (called a 'recognition payment) to acknowledge the trauma that you experienced \n2. Free counselling with experienced social workers and psychologists. \n3. Financial assistance for lost/damaged property, lost wages and urgent needs related to the violence you suffered \n\n"
+    },
+    "briefly": {
+        "es": "Necesitaré hacerte algunas preguntas para determinar a qué asistencia podrías ser elegible. \n\n¿Podrías describir brevemente lo que te hizo el agresor?\n\n",
+        "mayan": "In k'áat k'áansik ba'ax k a meyaj k'aato'obo' ich tu máak. \n\nBa'ax k a wilik k a jach ma' siije' a maaya'an?\n\n",
+        "en" : "I'll need to ask you some questions to determine what assistance you may be eligible for. \n\nCould you briefly describe what the offender did to you?\n\n"
+    },
+    "sexual abuse": {
+        "es": "Parece que has experimentado una forma de abuso sexual. El abuso sexual incluye acciones como tocamientos inapropiados ('asalto indecente'), asalto sexual (penetración sin consentimiento) e intento de asalto sexual.\n\n¿Estarías de acuerdo en que alguna de estas descripciones coincide con lo que te sucedió? \n\n",
+        "mayan": "Péet u wili' jach k a k'aato'obo' ma' u yáantik le máako'ob. Le máako'obo' yéetel tu láaka'abo' ku yáantik le máako'ob yéetel to'obil ich máak. \n\nMa' a k'aato'obo' ich a ku ts'áab a k a paakat u wáak'ech tu láaka'abo' ku yáantik ma' a k'áato'obo' le máako'ob?\n\n",
+        "en" : "It sounds like you experienced a form of sexual abuse. Sexual abuse includes actions like inappropriate touching ('indecent assault'), sexual assault (penetration without consent), and attempted sexual assault.\n\nWould you agree that any of these descriptions match what happened to you? \n\n"
+    },
+    "further questions": {
+        "es": "Entiendo que es difícil hablar de esto, pero necesitaré algunos detalles adicionales sobre lo que sucedió \n\n",
+        "mayan": "In wilik k'áat k'aato'obo' ku yáantik. Pero in k'áat k'aato'obo' ku yáantik ba'ax k a wilik ku yáantik ich a máak \n\n",
+        "en" : "I understand that this is difficult to talk about, but I'll need some further details about what happened \n\n"
+    },
+    "match error": {
+        "es": "Lo siento, todavía estoy aprendiendo. ¿Te gustaría que te proporcione los datos de contacto de algunos servicios legales gratuitos que pueden ayudarte con asesoramiento y solicitud de asistencia?\n\n",
+        "mayan": "Mixba'atil, taan in ka'ansik. Ba'ax a k'aato'obo' le máako'obo' ku yáantik máako'obo' ku yáantik k'áato'obo' ku yáantik le máako'obo'?\n\n",
+        "en" : "Sorry, I'm still learning. Would you like me to give you the contact details for some free legal services who can help you with advice and applying for some assistance?\n\n"
+    },
+    "sexual series": {
+        "es": "¿Experimentaste abuso físico o sexual por parte del mismo agresor en otras ocasiones?\n\n",
+        "mayan": "Ma' a yáantik ta'anal ich jach taan ku yáantik le máako'ob?\n\n",
+        "en" : "Did you experience physical or sexual abuse from the same offender on any other occasions?\n\n"
+    },
+    "aggravated": {
+        "es": "Cuando sufriste este abuso, ¿el agresor usó un arma o tuvo la ayuda de otra persona?\n\n",
+        "mayan": "Ba'ax k a jach taan le máako'ob, ba'ax k'áansaj máako'ob ku yáantik le máako'ob?\n\n",
+        "en" : "When you suffered this abuse, did the offender use a weapon or have the help of another person?\n\n"
+    },
+    "penetrate": {
+        "es": "Solo para confirmar, ¿el agresor penetró alguna parte de tu cuerpo?\n\n",
+        "mayan": "Ba'ax k'aato'obo' ku yáantik le máako'ob ich tu láaka'abo' ku yáantik máako'ob ku yáantik le máako'ob?\n\n",
+        "en" : "Just to confirm, did the offender penetrate any part of your body?\n\n"
+    },
+    "attempt penetrate": {
+        "es": "¿El agresor intentó penetrar alguna parte de tu cuerpo?\n\n",
+        "mayan": "Ba'ax máako'ob ku yáantik a k'áato'obo' máako'ob ku yáantik máako'ob ku yáantik le máako'ob?\n\n",
+        "en" : "Did the offender attempt to penetrate any part of your body?\n\n"
+    },
+    "injuries": {
+        "es": "¿Sufriste lesiones graves como resultado del abuso, por ejemplo, ¿necesitaste ser ingresado en un hospital para el tratamiento de esas lesiones (Sí/No)? \n\n",
+        "mayan": "¿Kux túun k'áato'obo' u ku yáantikech le meyaj, je'el, ¿ka k'áato'obo' ku xaan ku a jéets'ik ti' jump'éel hospital utia'al le yóok'ol ku yáantikech (Ja' Ma')? \n\n",
+        "en" : "Did you suffer serious injury as a result of the abuse, e.g. did you need to be admitted to hospital for the treatment of those injuries (Yes/No)? \n\n"
+    },
+    "Category B": {
+        "es": "Según tus respuestas, deberías tener derecho a: \n1. Un pago de reconocimiento de Categoría B de $10,000 \n2. 10 sesiones de asesoramiento gratuitas \n3. Asistencia financiera por salarios perdidos si necesitaste tiempo libre en el trabajo, o si alguna de tus propiedades fue dañada o robada durante el ataque \n\n",
+        "mayan": "Tu ku xane' beyo'ob tu k'áato'obo' ku táan k: \n1. Jump'éel k'áato'obo' utia'al le categoría B utia'al $10,000 \n2. 10 jump'éel asesoramiento gratuito \n3. Asistencia financiera utia'al le máako'ob u la'an ma' k u k'aato'ob máak ti' u meyajo'obo', wáa ku máak u jéets'ik a meyajo'obo' ti' le xane'\n\n",
+        "en" : "Based on your answers you should be entitled to: \n1. A Category B recognition payment of $10,000 \n2. 10 free counselling sessions \n3. Financial assistance for lost wages if you needed time off work, or if any of your property was damaged or stolen during the attack \n\n"
+    },
+    "Category C": {
+        "es": "Según tus respuestas, deberías tener derecho a: \n1. Un pago de reconocimiento de Categoría C de $5,000 \n2. 10 sesiones de asesoramiento gratuitas \n3. Asistencia financiera por salarios perdidos si necesitaste tiempo libre en el trabajo, o si alguna de tus propiedades fue dañada o robada durante el ataque \n\n",
+        "mayan": "Tu ku xane' beyo'ob tu k'áato'obo' ku táan k: \n1. Jump'éel k'áato'obo' utia'al le categoría C utia'al $5,000 \n2. 10 jump'éel asesoramiento gratuito \n3. Asistencia financiera utia'al le máako'ob u la'an ma' k u k'aato'ob máak ti' u meyajo'obo', wáa ku máak u jéets'ik a meyajo'obo' ti' le xane'\n\n",
+        "en" : "Based on your answers you should be entitled to: \n1. A Category C recognition payment of $5,000 \n2. 10 free counselling sessions \n3. Financial assistance for lost wages if you needed time off work, or if any of your property was damaged or stolen during the attack \n\n"
+    },
+    "Category D": {
+        "es": "Según tus respuestas, deberías tener derecho a: \n1. Un pago de reconocimiento de Categoría D de $1,500 \n2. 10 sesiones de asesoramiento gratuitas \n3. Asistencia financiera por salarios perdidos si necesitaste tiempo libre en el trabajo, o si alguna de tus propiedades fue dañada o robada durante el ataque \n\n",
+        "mayan": "Tu ku xane' beyo'ob tu k'áato'obo' ku táan k: \n1. Jump'éel k'áato'obo' utia'al le categoría D utia'al $1,500 \n2. 10 jump'éel asesoramiento gratuito \n3. Asistencia financiera utia'al le máako'ob u la'an ma' k u k'aato'ob máak ti' u meyajo'obo', wáa ku máak u jéets'ik a meyajo'obo' ti' le xane'\n\n",
+        "en" : "Based on you answers you should be entitled to: \n1. A Category D recognition payment of $1,500 \n2. 10 free counselling sessions \n3. Financial assistance for lost wages if you needed time off work, or if any of your property was damaged or stolen during the attack \n\n"
+    },
+    "assault": {
+        "es": "Parece que sufriste un asalto. Un asalto puede ser cuando alguien te golpea, o cuando te hace temer que te va a causar daño físico. ¿Esto suena como lo que experimentaste? \n\n",
+        "mayan": "Péet u wili' jach k a k'aato'obo' le asalto. Jump'éel asalto puede ser wa' ku máak u k'áato'obo', wáa ma' a jach ts'íij ku yáantik jach ba'ax a k'áato'obo' ich ba'ax máak. ¿Bey bix u ts'áab a meyaj?\n\n",
+        "en" : "It sounds like you suffered an assault. An assault can be where someone hits you, or where they cause you to fear that they are about to do you physical harm. Does this sound like what you experienced? \n\n"
+    },
+    "serious harm": {
+        "es": "¿Sufriste lesiones graves como resultado del ataque? Por ejemplo, ¿necesitaste ser ingresado en un hospital para el tratamiento de tus lesiones (Sí/No)? \n\n",
+        "mayan": "¿Kux túun k'áato'obo' u ku yáantikech le máako'ob, je'el, ¿ka k'áato'obo' ku xaan ku a jéets'ik ti' jump'éel hospital utia'al le yóok'ol ku yáantikech (Ja' Ma')? \n\n",
+        "en" : "Did you suffer serious injuries as a result of the attack? e.g. Did you need to be admitted to hospital for the treatment of your injuries (Yes/No)? \n\n"
+    },
+    "eighteen": {
+        "es": "¿Tenías menos de 18 años cuando fuiste agredido? \n\n",
+        "mayan": "¿Ba'ax a yaan túun u 18 ja'ab táan in wáay k a wilik ku k'aato'obo'?\n\n",
+        "en" : "Were you under the age of 18 when you were assaulted? \n\n"
+    },
+    "child": {
+        "es": "¿Fuiste agredido por el mismo agresor en más de una ocasión mientras eras menor de 18 años? \n\n",
+        "mayan": "¿Ka wilik ku k'aato'obo' le máak u ka'at u ts'íij yáan máako'ob yéetel ti' u ka'anal máak?\n\n",
+        "en" : "Were you assaulted by the same offender on more than one occasion while you were under the age of 18 years old? \n\n"
+    },
+    "application": {
+        "es": "Para hacer tu solicitud para este apoyo necesitarás: \n\n1. Prueba de lo que el agresor te hizo. \n\nSi es posible, haz un informe a la policía sobre lo que sucedió y obtén una copia para incluir con tu solicitud. De lo contrario, puedes escribir lo que sucedió en una declaración jurada (puedes obtener la declaración jurada de una papelería, o puedes descargar el formulario aquí: http://ow.ly/bbnG30fnzT1) \n\n2. Prueba del daño que sufriste a causa de las acciones del agresor.\n\nEsto puede ser una carta de tu médico de cabecera que describa lo que sucedió y las lesiones que sufriste. O puedes obtener una copia de tus notas del hospital, si fuiste atendido en un hospital por tus lesiones. Si tus lesiones son psicológicas, puedes obtener un informe breve de tu psicólogo que describa lo que sucedió y el impacto que ha tenido en tu salud mental. \n\nPuedes contactar a Servicios para Víctimas para iniciar tu solicitud (Tel: 1800 633 063 / Email: vs@justice.nsw.gov.au). \n\n",
+        "mayan": "Utsi' k'aato'obo' u k'áato'obo' ich le máako'ob k'aato'obo' ku yáantik: \n\n1. U k'áato'obo' u ku k'aato'obo' le máako'ob. \n\nWa' u ka'ansaj, k'aato'obo' k'u police ku yáantik le meyaj yéetel ku wilik jump'éel kopia utia'al u k'áato'obo' ich le máako'ob. Jéets', jump'éel ka'ansaj tu'ux a wilik le máako'ob ku yáantik. (jump'éel ka'ansaj tu'ux a wilik le máako'ob ka'ansaj). \n\n2. U k'áato'obo' u ku yáantikech le máako'ob.\n\nBa'ax k'áato'obo' ich a k'aato'obo' le yóok'ol, wa' a wilik u le máako'ob k'áato'obo'. Wa' a k'áato'obo' le máako'ob ku yáantik ich a meyaj. Wa' a wilik le máako'ob ku yáantik ich a ku yóol le máako'ob.\n\n",
+        "en" : "To make your application for for this support you'll need: \n\n1. Proof of what the offender did to you. \n\nIf at all possible, make a report to police about what happened and get a copy to include with your application. Otherwise, you can write out what happened in a statutory declaration (you can get the statutory declaration from from a news agent, or you can download the form from here: http://ow.ly/bbnG30fnzT1) \n\n2. Proof of the harm you suffered from the offender's actions.\n\nThis can be a letter from your GP setting out what happened and the injuries you suffered. Or you can obtain a copy of your hospital notes, if you attended a hospital for your injuries. If your injuries are psychological then you can obtain a short report from your psychologist setting out what happened and the impact it has had on your mental health. \n\nYou can contact Victims Services to start your application (Ph: 1800 633 063 / Email: vs@justice.nsw.gov.au). \n\n"
+    },
+    "application advice": {
+        "es": "¿Te gustaría obtener información sobre servicios legales gratuitos que pueden ayudarte a realizar tu solicitud de Apoyo a Víctimas? \n\n",
+        "mayan": "¿A ku ka'ansaj u k'áato'obo' ich le máako'ob máako'obo' k'aato'obo' k a ku yáantik le máako'ob?\n\n",
+        "en" : "Would you like information on free legal services that can assist you with making your application for Victims Support? \n\n"
+    },
+    "disclaimer": {
+        "es": "Recuerda que solo soy un chatbot, no un abogado. Solo puedo proporcionar información, no asesoramiento legal. \n\n",
+        "mayan": "Jach k'aato'obo', u yáantik k ka ku ku k'áato'obo', ma' máak. Utsi' ku k'áato'obo' ich a meyaj, ma' u máako'ob.\n\n",
+        "en" : "Remember that I'm just a chatbot, not a lawyer, I can only provide information, not legal advice. \n\n"
+    },
+    "counselling": {
+        "es": "Dos opciones para asesoramiento gratuito incluyen: \n1. Visita a tu médico de cabecera para obtener un plan de salud mental y una derivación para asesoramiento financiado por Medicare con un psicólogo\n2. Solicita a Servicios para Víctimas asesoramiento financiado por el gobierno de Nueva Gales del Sur con trabajadores sociales y psicólogos (Tel: 1800 633 063 / Email: vs@justice.nsw.gov.au)\n\n",
+        "mayan": "Dos ba'ax k'áato'obo' ich le máako'ob ku yáantik máako'ob: \n1. Ka ku ku wilik ku meyaj utia'al u ku yáantik ku máako'ob máako'ob \n2. Ka ku ku yáantik Servicios para Víctimas asesoramiento financiado por el gobierno de Nueva Gales del Sur con trabajadores sociales y psicólogos (Tel: 1800 633 063 / Email: vs@justice.nsw.gov.au)\n\n",
+        "en" : "Two options for free counselling include: \n1. See your GP for a mental health plan and referral for Medicare-funded counselling with a psychologist\n2. Apply to Victims Services for NSW government-funded counselling with social workers and psychologists (Ph: 1800 633 063 / Email: vs@justice.nsw.gov.au)\n\n"
+    },
+    "other_services": {
+        "es": "¿Te gustaría saber qué otra asistencia podría estar disponible para ti a través de Servicios para Víctimas (como asistencia financiera y compensación)?\n\n",
+        "mayan": "¿A k'áansaj jump'éel tu'ux máako'ob k'aato'obo' ich le máako'ob ku yáantik le máako'ob (táan utia'al ku máako'ob yéetel compensación)?\n\n",
+        "en" : "Would you like to find out what other assistance may be available to you through Victims Services (such as financial assistance and compensation)?\n\n"
+    },
+    "legal services": {
+        "es": "Es importante conocer tus derechos si has sido víctima de un delito. ¿Te gustaría obtener información sobre servicios legales gratuitos? \n\n",
+        "mayan": "Jach tu ku máako'ob u ku k'áato'obo' ich a ku k'aato'obo' máako'ob. ¿A k'áato'obo' k'áansaj u máako'ob ich le máako'ob ku yáantik máako'ob ku máako'ob?\n\n",
+        "en" : "It is important to know your rights if you've been a victim of crime. Would you like some information on free legal services? \n\n"
+    },
+    "free legal services": {
+        "es": "Aquí tienes información sobre servicios legales gratuitos: \n\nWomen's Legal Service NSW:\nSitio web: http://www.wlsnsw.org.au/ \nTeléfono: 02 8745 6900 \nEmail: reception@wlsnsw.org.au \n\nDomestic Violence Legal Service: \nTeléfono: 1800 810 784 \n\nIndigenous Women’s Legal Program: \nTeléfono: 1800 639 784 \n\nLos Centros de Asesoría Legal Comunitaria también pueden ayudarte con asesoramiento y referencias. Aquí tienes el enlace a sus datos de contacto: http://www.clcnsw.org.au/clc_directory.php \n\n",
+        "mayan": "Yaan u máako'ob ich le máako'ob ku yáantik máako'ob: \n\nWomen's Legal Service NSW:\nWebsite: http://www.wlsnsw.org.au/ \nTeléfono: 02 8745 6900 \nEmail: reception@wlsnsw.org.au \n\nDomestic Violence Legal Service: \nTeléfono: 1800 810 784 \n\nIndigenous Women’s Legal Program: \nTeléfono: 1800 639 784 \n\nLos Centros de Asesoría Legal Comunitaria también pueden ayudarte con asesoramiento y referencias. Aquí tienes el enlace a sus datos de contacto: http://www.clcnsw.org.au/clc_directory.php \n\n",
+        "en" : "Here's some information on free legal services: \n\nWomen's Legal Service NSW:\nWebsite: http://www.wlsnsw.org.au/ \nPhone: 02 8745 6900 \nEmail: reception@wlsnsw.org.au \n\nDomestic Violence Legal Service: \nPhone: 1800 810 784 \n\nIndigenous Women’s Legal Program: \nPhone: 1800 639 784 \n\nCommunity Legal Centres can also help with free advice and referrals. \nHere's the link to their contact details: http://www.clcnsw.org.au/clc_directory.php \n\n"
+    },
+    "sexual abuse information": {
+        "es": "Aquí tienes un enlace a información sobre tus derechos legales: \nhttp://www.wlsnsw.org.au/resources/sexual-assault/ \n\n",
+        "mayan": "Yaan u máako'ob ich le máako'ob ku yáantik máako'ob: \nhttp://www.wlsnsw.org.au/resources/sexual-assault/ \n\n",
+        "en" : "Here's a link to some information on your legal rights: \nhttp://www.wlsnsw.org.au/resources/sexual-assault/ \n\n"
+    },
+    "AVO": {
+        "es": "Aquí tienes información del Southern Women's Group sobre cómo hacer que una Orden de Violencia Aprehendida funcione para ti: http://www.sl.nsw.gov.au/sites/default/files/just_piece_paper.pdf \n\n",
+        "mayan": "Yaan u máako'ob ich le máako'ob ku yáantik máako'ob ku yáantik le máako'ob: http://www.sl.nsw.gov.au/sites/default/files/just_piece_paper.pdf \n\n",
+        "en" : "Here's some information from the Southern Women's Group about how to make an Apprehended Violence Order work for you: http://www.sl.nsw.gov.au/sites/default/files/just_piece_paper.pdf \n\n"
+    },
+    "attempt": {
+        "es": "Lo siento, ¿podríamos intentarlo de nuevo? Estoy haciendo lo mejor que puedo, pero todavía estoy aprendiendo. ¿Podrías reformular tu respuesta para mí (sí/no)? \n\n",
+        "mayan": "Mixba'atil, ¿ka k'áato'obo' ich le máako'ob? Taan in ka'ansik. ¿Ba'ax a k'aato'obo' ku yáantik le máako'ob ich le máako'ob (Ja'/Ma')?\n\n",
+        "en" : "Sorry about that, could we try that again? I'm doing my best, but I'm still learning. Would you mind rephrasing your response for me (yes/no)? \n\n"
+    }
+}
