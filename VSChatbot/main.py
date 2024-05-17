@@ -332,20 +332,11 @@ class Chatbot:
 
     def get_initial_messages(self, language):
         if language == 'es':
-            return [
-                "Hola, soy un chatbot. \nMi trabajo es ayudar a las personas con información sobre los servicios de apoyo a las víctimas en Nueva Gales del Sur. Si has sido víctima de abuso físico o sexual, me gustaría ayudarte.\n\n",
-                "¿Te gustaría obtener información sobre: \n1. Servicios legales gratuitos \n2. Consejería \n3. Compensación a víctimas \n\n"
-            ]
+            return [self.response(key='welcome',language = language),self.response(key='main menu',language = language)]
         elif language == 'mayan':
-            return [
-                "Ba'ax ka wa'alik, in kaambal. \nIn k'aaba' yéetel u k'áatchi'ob u k'i'ik'ib tuméen kuxtal. Wa k'a'a' k'uxtal na'at, in k'a'atech ku je'elo'ob.\n\n",
-                "Ba'ax ka wa'alik yaan a k'i'ik'baj? \n1. U k'i'ik'ib yéetel yaan a k'i'ik'ib \n2. Consejería \n3. Compensación a víctimas \n\n"
-            ]
+            return [self.response(key='welcome',language = language),self.response(key='main menu',language = language)]
         else:  # Default to English
-            return [
-                "Hi, I'm a chatbot. \nMy job is to help people with information about victims support services in New South Wales. If you have been the victim of physical or sexual abuse I'd like to help you \n\n",
-                "Would you like some information on: \n1. Free legal services \n2. Counselling \n3. Victims Compensation \n\n"
-            ]
+            return [self.response(key='welcome',language = language),self.response(key='main menu',language = language)]
 
     def get_chatbot_response(self, message, language):
         if language == 'es':
